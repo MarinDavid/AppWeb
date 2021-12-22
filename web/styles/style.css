@@ -8,7 +8,9 @@ html{
 }
 .header{
     width: 100%;
-    border: 1px solid black;    
+    border: 1px solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;    
 }
 .header-nav{
     display: flex;
@@ -17,6 +19,7 @@ html{
 .header-nav__article{
     width: 50%;
     font-size: 2rem;
+    color: darkgray;
     padding-left: 5%;
 }
 .header-nav ul{
@@ -25,6 +28,8 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 1.2rem;
+    color: darkgray;
 }
 .header-nav li {
     width: 50%;
@@ -126,9 +131,12 @@ html{
 .footer{
     display: flex;
     justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .footer article{
-    font-size: 1.6rem;
+    font-size: 2rem;
+    color: darkgray;
 }
 
 
