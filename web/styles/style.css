@@ -42,16 +42,16 @@ html{
     justify-content: center;
     flex-wrap: wrap;
 }
-.card-head{
+.hat{
     display: flex;
     justify-content: center;
     position: absolute;
 }
-.card-head__figure{
+.hat-figure{
     width: 120px;
     height: 120px;
 }
-.card-head__figure img{
+.hat-figure img{
     width: 100%;
     height: 100%;
     border: 5px solid white;
@@ -82,6 +82,47 @@ html{
     padding-left: 1%;
     padding-top: 1%;
     padding-right: 1%;
+}
+.card-counter{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 5%;
+}
+.card-social{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 5%;
+}
+.card-categories{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+.card-products{
+    margin-top: 5%;
+}
+.card-products__article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-products__article figure{
+    width: 50%;
+    height: 100%;
+}
+.card-products__article img{
+    width: 100%;
+    height: 100%;
+}
+.product-details{
+    width: 50%;
+    height: 100%;
+}
+.product-details__title{
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.product-details__price{
+    font-weight: bold;
 }
 
 
