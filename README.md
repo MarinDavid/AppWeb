@@ -1,4 +1,6 @@
 # AppWeb
-Esta es la futura versión de AppWeb
+Esta es la versión de AppWeb para móvil.
 
-De momento trabajo en el HTML y CSS
+Tiene un máximo de 400px de ancho para la carta de presentación
+
+No he añadido JavaScript, solo es HTML y CSS
