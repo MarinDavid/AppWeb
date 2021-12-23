@@ -9,7 +9,6 @@ html{
 }
 .header{
     width: 100%;
-    border: 1px solid black;
     padding-top: 3%;
     padding-bottom: 3%;    
 }
@@ -34,6 +33,7 @@ html{
 }
 .header-nav li {
     width: 50%;
+    text-align: center;
 }
 .header-nav li:hover{
     color: rgb(51, 102, 187);
@@ -68,6 +68,7 @@ html{
     background-color: white;
     margin-top: 60px;
     border-radius: 5px;
+    max-width: 400px;
 }
 .card-header{
     display: flex;
@@ -132,12 +133,11 @@ html{
 .product-details__description{
     padding-right: 3%;
     line-height: 1.5rem;
-
 }
 .product-details__price{
     font-weight: bold;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 6%;
     padding-bottom: 3%;
 }
 .product-details__link{
